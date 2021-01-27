@@ -1,0 +1,123 @@
+.backk {
+    background-image: linear-gradient(100deg,rgb(224, 195, 195),rgb(245, 163, 163), white);
+    height: 100vh;
+    text-align: center;
+}
+
+.heading {
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: 800;
+    font-size: 40px;
+    padding: 35px 20px 10px 20px;
+    display: inline-block;
+}
+
+#huray {
+    color:rgb(86, 139, 55)
+}
+
+.title {
+    padding: 20px 20px 10px 20px;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 30px;
+    display: inline-block;
+    color:rgb(247, 230, 76);
+}
+
+.points {
+    margin: 0px 20px 0px 22%;;
+}
+
+.list {
+    text-align: left;
+    list-style-position: inside;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+#back-button {
+    margin: 20px;
+    background: rgb(60, 168, 159);
+    border: none;
+    color: rgb(229, 245, 0);
+    padding: 20px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 50%;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#back-button:hover {
+    opacity: 0.7;
+}
+
+#circle {
+    margin: 20px;
+    background: url("../../assets/download.jfif");
+    border: none;
+    color: rgb(229, 245, 0);
+    padding: 20px 39px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 30%;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+#circle:hover {
+    color:rgb(255, 0, 255);
+    background-size: cover;
+}
+
+@media (max-width: 1260px) {
+    .points {
+        margin: 0px 20px 0px 12%;
+
+    }
+}
+
+@media (max-width: 1000px) {
+    .backk {
+        height: 100%;
+        background-image: linear-gradient(100deg,rgb(224, 195, 195),rgb(245, 163, 163), white);
+
+    }
+    .points {
+        margin: 0px 20px 0px 20px;
+    }
+} 
+
+@media (max-width: 410px) {
+
+    .backk {
+        height: 100%;
+        background-image: linear-gradient(100deg,rgb(224, 195, 195),rgb(245, 163, 163), white);
+
+    }
+
+    .heading {
+        font-family: cursive;
+        font-style: oblique;
+        font-weight: 700;
+        font-size: 30px;
+        padding: 35px 20px 10px 20px;
+        display: inline-block;
+    }
+
+    .title {
+        padding: 20px 20px 10px 20px;
+        font-family: monospace;
+        font-weight: 900;
+        font-size: 25px;
+        display: inline-block;
+        color:rgb(247, 230, 76);
+    }
+    
+}
